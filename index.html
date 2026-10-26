@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tasty Foods</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <span>Mon-Fri: 8am - 11pm | Sat-Sun: 8am - 12pm</span>
+    <div class="top-links">
+      <a href="#">About</a> | <a href="#">Contact</a> | <a href="#">Login/Register</a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Tasty <span>FOODS</span></div>
+    <button id="toggle-btn" class="hamburger">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Order</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <!-- Order button -->
+    <div class="contact-btn">
+      <span><i class="fas fa-phone-alt"></i> +1-555-157-5651</span>
+      <button class="order-btn">Order Online</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+<section class="hero" data-aos="fade-up">
+  <div class="hero-text">
+    <h1>Welcome to<br><span>Our Tasty Foods</span></h1>
+    <p>Delicious meals made fresh. Fast delivery. Great prices!</p>
+    <div class="hero-buttons">
+      <button class="order-btn">Order Now</button>
+      <button class="book-btn">Book a Table</button>
+    </div>
+  </div>
+</section>
+
+  <!-- Products Section -->
+  <section class="products" data-aos="zoom-in-up">
+    <h2>Our Popular <span>Tasty Foods</span></h2>
+    <p>Explore our delicious menu items below</p>
+
+    <div class="filter-buttons">
+      <button class="filter active">All Food</button>
+      <button class="filter">Burger</button>
+      <button class="filter">Pizza</button>
+      <button class="filter">Sandwich</button>
+      <button class="filter">Cold Drinks</button>
+      <button class="filter">Pasta</button>
+      <button class="filter">Combos</button>
+    </div>
+
+    <!-- Product card -->
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="burger.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Spicy Burger</h4>
+        <p>20% off First Order</p>
+        <strong>$10.90</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="frenchfry.jpg" alt="">
+        <div class="stars">★★★★☆</div>
+        <h4>French Fry</h4>
+        <p>Crunchy & Salty</p>
+        <strong>$6.50</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="pasta.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Pasta</h4>
+        <p>Cheesy and creamy</p>
+        <strong>$9.00</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="sandwich.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Sandwich</h4>
+        <p>Grilled delight</p>
+        <strong>$8.50</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="colddrink.jpg" alt="">
+        <div class="stars">★★★★☆</div>
+        <h4>Cold Drinks</h4>
+        <p>Cool and refreshing</p>
+        <strong>$3.00</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="combo1.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Combo 1</h4>
+        <p>Burger + Drink</p>
+        <strong>$12.00</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="combo2.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Combo 2</h4>
+        <p>Wrap + Fries</p>
+        <strong>$11.50</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="combo3.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Combo 3</h4>
+        <p>Pizza + Drink</p>
+        <strong>$13.00</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="cheesepizza.jpg" alt="">
+        <div class="stars">★★★★☆</div>
+        <h4>Pizza Deal</h4>
+        <p>Cheesy Hot</p>
+        <strong>$10.90</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="chickenwrap.jpg" alt="">
+        <div class="stars">★★★★☆</div>
+        <h4>Chicken Wrap</h4>
+        <p>Grilled Chicken</p>
+        <strong>$8.90</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="bbqburger.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>BBQ Burger</h4>
+        <p>Smokey and Spicy</p>
+        <strong>$12.00</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="icecream.jpg" alt="">
+        <div class="stars">★★★★☆</div>
+        <h4>Ice Cream</h4>
+        <p>Sweet & Cold</p>
+        <strong>$5.50</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="fries.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Fries Bucket</h4>
+        <p>Large & Crispy</p>
+        <strong>$7.00</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="clubsandwich.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Club Sandwich</h4>
+        <p>Double Layer</p>
+        <strong>$9.50</strong>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="cheesestick.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Cheese Stick</h4>
+        <p>Full Cheesy</p>
+        <strong>$15.00</strong>
+        <button>Add to Cart</button>
+      </div>   
+       <div class="product-card">
+        <img src="paratharoll.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Paratha Roll</h4>
+        <p>Full Meal</p>
+        <strong>$20.00</strong>
+        <button>Add to Cart</button>
+      </div>  
+        <div class="product-card">
+        <img src="juice.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>juice</h4>
+        <p>Refreshing</p>
+        <strong>$15.00</strong>
+        <button>Add to Cart</button>
+      </div>  
+        <div class="product-card">
+        <img src="coffee.jpg" alt="">
+        <div class="stars">★★★★★</div>
+        <h4>Coffee</h4>
+        <p>Hot and Cold</p>
+        <strong>$10.00</strong>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery" data-aos="zoom-in">
+    <h2>Food <span>Gallery</span></h2>
+    <div class="gallery-images">
+      <img src="pasta.jpg" alt="">
+      <img src="burger.jpg" alt="">
+      <img src="pizza.jpg" alt="">
+      <img src="shakes.jpg" alt="">
+      <img src="bbq.jpg" alt="">
+      <img src="coffee.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- Feedback -->
+ <section class="feedback" id="reviews">
+  <h2><span>Customer</span> Reviews</h2>
+  <div class="feedback-grid">
+
+    <div class="feedback-card">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer 1" class="avatar">
+      <h4>Sara Khan</h4>
+      <div class="stars">★★★★★</div>
+      <p>"The food was absolutely amazing! Will definitely order again."</p>
+    </div>
+
+    <div class="feedback-card">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer 2" class="avatar">
+      <h4>Ali Raza</h4>
+      <div class="stars">★★★★☆</div>
+      <p>"Delivery was quick, and the burgers were juicy and hot. Great job!"</p>
+    </div>
+
+    <div class="feedback-card">
+      <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer 3" class="avatar">
+      <h4>Ayesha Malik</h4>
+      <div class="stars">★★★★★</div>
+      <p>"Loved the desserts! The packaging was neat and professional."</p>
+    </div>
+
+    <div class="feedback-card">
+      <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="Customer 4" class="avatar">
+      <h4>Usman Tariq</h4>
+      <div class="stars">★★★☆☆</div>
+      <p>"Pizza was good but arrived a bit late. Overall nice experience."</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer data-aos="fade-up">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Tasty <span>FOODS</span></h3>
+        <p>Deliciousness delivered to your door. Fast & Fresh every time.</p>
+        <p><i class="fas fa-phone"></i> +1-555-157-5651</p>
+        <p><i class="fas fa-map-marker-alt"></i> Brooklyn, NYC</p>
+        <p><strong>Hours:</strong> 08:00AM - 12:00AM</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <h4>Our Menu</h4>
+        <ul>
+          <li><a href="#">Burgers</a></li>
+          <li><a href="#">Pizza</a></li>
+          <li><a href="#">Desserts</a></li>
+        </ul>
+      </div>
+      <div class="footer-news">
+        <h4>Subscribe</h4>
+        <input type="email" placeholder="Your email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Tasty Foods. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+
+    const toggleBtn = document.getElementById('toggle-btn');
+    const navLinks = document.querySelector('.nav-links');
+    toggleBtn.onclick = () => {
+      navLinks.classList.toggle('active');
+    };
+  </script>
+
+</body>
+
+</html>
